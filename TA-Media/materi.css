@@ -1,0 +1,169 @@
+/* materi.css */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-image: url('img/awal.png'); /* Ganti dengan path gambar latar belakang header yang sesuai */
+    background-size: cover;
+    opacity: 0.7;
+    background-position: center;
+    height: 300px; /* Sesuaikan tinggi header sesuai kebutuhan */
+    position: relative;
+    overflow: hidden; /* Untuk memastikan gambar latar belakang tidak keluar dari header */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(27, 26, 26);
+    text-align: center;
+    z-index: 1;
+}
+
+.header-content h1 {
+    font-size: 36px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #FDA446;
+    padding: 7px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Menyusun item ke tengah */
+    align-items: center;      /* Menyusun item ke tengah secara vertikal */
+    height: 38px;             /* Tinggi navigasi */
+}
+
+nav ul li {
+    margin: 0 10px;  /* Memberikan jarak antara item navigasi */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+nav ul li a:active, nav ul li a:focus, nav ul li a.active {
+    color: #FFD700;  /* Warna tulisan saat diklik atau aktif */
+}
+
+/* Section styling */
+section#materi {
+    padding: 20px;
+    background-color: #f0f0f0; /* Warna latar belakang bagian materi */
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Menyusun dalam 3 kolom */
+    gap: 20px; /* Jarak antar kolom */
+}
+
+.column {
+    background-color: #fff; /* Warna latar belakang kolom konten */
+    padding: 15px;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-image: url('img/kontenmedia.png'); /* Ganti dengan path gambar latar belakang kolom konten yang sesuai */
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Posisi teks di tengah */
+}
+
+.column h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+ul li a {
+    text-decoration: none;  /* Menghilangkan garis bawah pada link */
+    color: black;
+}
+
+ul li a:hover {
+    color: #800080;         /* Warna link saat hover */
+}
+
+/* Navigation buttons styling */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Warna tombol */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049; /* Warna tombol saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FDA446;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+} */

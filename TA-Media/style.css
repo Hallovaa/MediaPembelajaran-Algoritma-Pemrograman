@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: relative;
+    height: 300px; /* Sesuaikan tinggi header sesuai kebutuhan */
+    text-align: center;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/awal.png'); /* Ganti dengan path gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7; /* Opasitas latar belakang untuk menyesuaikan kecerahan */
+    z-index: -1; /* Taruh di belakang semua elemen header */
+}
+
+.header-content {
+    position: relative;
+    z-index: 1; /* Untuk membuat konten header berada di depan latar belakang */
+    color: rgb(8, 8, 8);
+    padding: 100px 0; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+nav {
+    background-color: #FDA446;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Menyusun item ke tengah */
+    align-items: center;      /* Menyusun item ke tengah secara vertikal */
+    height: 50px;             /* Tinggi navigasi */
+}
+
+nav ul li {
+    margin: 0 10px;  /* Memberikan jarak antara item navigasi */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    
+}
+
+
+nav ul li a:active, nav ul li a:focus, nav ul li a.active {
+    color: #FFD700;  /* Warna tulisan saat diklik atau aktif */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #800080;
+    color: rgb(20, 19, 19);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+
+.bold {
+    font-size: 1.17em;  /* Ukuran teks seperti <h3> */
+    font-weight: bold;  /* Menambahkan gaya tebal */
+    color: #FDA446;     /* Menambahkan warna kuning */
+}
+
+p {
+    font-size: 1.1em;   /* Sedikit memperbesar ukuran font */
+    line-height: 1.6em; /* Meningkatkan jarak antar baris untuk keterbacaan */
+    margin: 10px 0;     /* Menambahkan margin untuk spasi antar paragraf */
+    padding: 10px;      /* Menambahkan padding untuk memberikan ruang dalam */
+    background-color: #f9f9f9; /* Warna latar belakang yang sedikit berbeda untuk kontras */
+    border-left: 4px solid #4CAF50; /* Menambahkan border kiri sebagai penekanan visual */
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: calc(100% - 12px);
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
