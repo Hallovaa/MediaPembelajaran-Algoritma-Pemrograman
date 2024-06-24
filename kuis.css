@@ -36,7 +36,6 @@ header {
     font-size: 36px;
 }
 
-
 nav {
     background-color: #FDA446;
     padding: 7px 0;
@@ -101,11 +100,13 @@ button:hover {
 
 #results ul {
     padding-left: 20px;
+    list-style: none; /* Remove bullet points */
 }
 
 #questionList {
     margin-bottom: 20px;
 }
+
 .question-link {
     cursor: pointer;
     padding: 5px 10px;
@@ -116,10 +117,10 @@ button:hover {
     display: inline-block;
     font-size: 14px;
 }
+
 .question-link:hover {
     background-color: #e0e0e0;
 }
-
 
 footer {
     text-align: center;
@@ -137,4 +138,3 @@ footer a {
     color: white;
     text-decoration: underline;
 }
-
