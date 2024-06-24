@@ -1,4 +1,3 @@
-/* Body styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -6,18 +5,17 @@ body {
     padding: 0;
 }
 
-/* Header styling */
 header {
     position: relative;
-    height: 300px; /* Sesuaikan tinggi header sesuai kebutuhan */
-    overflow: hidden; /* Untuk memastikan gambar latar belakang tidak keluar dari header */
+    height: 300px; 
+    overflow: hidden; 
 }
 
 .header-background {
-    background-image: url('img/awal.png'); /* Ganti dengan path gambar latar belakang header yang sesuai */
+    background-image: url('img/awal.png'); 
     background-size: cover;
     background-position: center;
-    filter: blur(5px); /* Efek blur */
+    filter: blur(5px); 
     height: 100%;
     width: 100%;
     position: absolute;
@@ -53,13 +51,13 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;  /* Menyusun item ke tengah */
-    align-items: center;      /* Menyusun item ke tengah secara vertikal */
-    height: 38px;             /* Tinggi navigasi */
+    justify-content: center;  
+    align-items: center;      
+    height: 38px;             
 }
 
 nav ul li {
-    margin: 0 10px;  /* Memberikan jarak antara item navigasi */
+    margin: 0 10px;  
 }
 
 nav ul li a {
@@ -75,13 +73,13 @@ nav ul li a:hover {
 }
 
 nav ul li a:active, nav ul li a:focus, nav ul li a.active {
-    color: #FFD700;  /* Warna tulisan saat diklik atau aktif */
+    color: #FFD700;  
 }
 
-/* Section styling */
+
 section#content {
     padding: 30px 20px;
-    background-color: #f0f0f0; /* Warna latar belakang bagian konten */
+    background-color: #f0f0f0; 
     margin-top: 20px;
 }
 
@@ -131,13 +129,13 @@ pre {
 
 .right-buttons {
     display: flex;
-    gap: 10px; /* Jarak antara tombol kanan */
+    gap: 10px; 
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Warna tombol */
+    background-color: #4CAF50; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -145,10 +143,10 @@ pre {
 }
 
 .button:hover {
-    background-color: #45a049; /* Warna tombol saat hover */
+    background-color: #45a049; 
 }
 
-/* Footer styling */
+
 footer {
     text-align: center;
     padding: 10px 0;
