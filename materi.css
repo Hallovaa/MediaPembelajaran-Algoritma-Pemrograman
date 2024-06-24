@@ -65,7 +65,6 @@ nav ul li a:active, nav ul li a:focus, nav ul li a.active {
     color: #FFD700;  
 }
 
-
 section#materi {
     padding: 20px;
     background-color: #f0f0f0; 
@@ -75,6 +74,12 @@ section#materi {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; 
+    }
 }
 
 .column {
@@ -102,7 +107,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-
 ul li a {
     text-decoration: none;  
     color: black;
@@ -111,7 +115,6 @@ ul li a {
 ul li a:hover {
     color: #800080;         
 }
-
 
 .navigation-buttons {
     display: flex;
@@ -131,21 +134,4 @@ ul li a:hover {
 
 .button:hover {
     background-color: #45a049; 
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #FDA446;
-    color: white;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: white;
-    text-decoration: underline;
 }
