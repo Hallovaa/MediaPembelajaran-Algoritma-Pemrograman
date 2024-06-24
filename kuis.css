@@ -13,13 +13,13 @@ body {
 }
 
 header {
-    background-image: url('img/awal.png'); /* Ganti dengan path gambar latar belakang header yang sesuai */
+    background-image: url('img/awal.png'); 
     background-size: cover;
     opacity: 0.7;
     background-position: center;
-    height: 300px; /* Sesuaikan tinggi header sesuai kebutuhan */
+    height: 300px; 
     position: relative;
-    overflow: hidden; /* Untuk memastikan gambar latar belakang tidak keluar dari header */
+    overflow: hidden; 
 }
 
 .header-content {
@@ -36,7 +36,7 @@ header {
     font-size: 36px;
 }
 
-/* Navigation styling */
+
 nav {
     background-color: #FDA446;
     padding: 7px 0;
@@ -47,13 +47,13 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;  /* Menyusun item ke tengah */
-    align-items: center;      /* Menyusun item ke tengah secara vertikal */
-    height: 38px;             /* Tinggi navigasi */
+    justify-content: center;  
+    align-items: center;      
+    height: 38px;             
 }
 
 nav ul li {
-    margin: 0 10px;  /* Memberikan jarak antara item navigasi */
+    margin: 0 10px;  
 }
 
 nav ul li a {
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 nav ul li a:active, nav ul li a:focus, nav ul li a.active {
-    color: #FFD700;  /* Warna tulisan saat diklik atau aktif */
+    color: #FFD700;  
 }
 
 h1, h2, h3 {
