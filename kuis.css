@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background-image: url('img/awal.png'); /* Ganti dengan path gambar latar belakang header yang sesuai */
+    background-size: cover;
+    opacity: 0.7;
+    background-position: center;
+    height: 300px; /* Sesuaikan tinggi header sesuai kebutuhan */
+    position: relative;
+    overflow: hidden; /* Untuk memastikan gambar latar belakang tidak keluar dari header */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(27, 26, 26);
+    text-align: center;
+    z-index: 1;
+}
+
+.header-content h1 {
+    font-size: 36px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #FDA446;
+    padding: 7px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Menyusun item ke tengah */
+    align-items: center;      /* Menyusun item ke tengah secara vertikal */
+    height: 38px;             /* Tinggi navigasi */
+}
+
+nav ul li {
+    margin: 0 10px;  /* Memberikan jarak antara item navigasi */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+nav ul li a:active, nav ul li a:focus, nav ul li a.active {
+    color: #FFD700;  /* Warna tulisan saat diklik atau aktif */
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#quiz {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    text-align: left;
+}
+
+#results ul {
+    padding-left: 20px;
+}
+
+#questionList {
+    margin-bottom: 20px;
+}
+.question-link {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+}
+.question-link:hover {
+    background-color: #e0e0e0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FDA446;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+

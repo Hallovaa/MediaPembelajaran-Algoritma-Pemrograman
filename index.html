@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritma dan Pemrograman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-background"></div> <!-- Untuk latar belakang header -->
+        <div class="header-content">
+            <!-- <h1>ALGORITMA DAN PEMROGRAMAN</h1> -->
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="materi.html">Materi</a></li> <!-- Tautan ke halaman materi -->
+            <li><a href="kuis.html">Kuis</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2 align="center">Apa Itu Algoritma dan Pemrograman?</h2>
+        <p><span class="bold">Algoritma </span>disebut oleh Donald Ervin Knuth adalah sekumpulan aturan-aturan berhingga yang memberikan sederetan operasi-operasi untuk menyelesaikan masalah tertentu. Sederhananya, algoritma adalah suatu langkah atau metode yang telah direncanakan secara matang agar berurutan dan tersusun rapi, serta sering digunakan untuk menyelesaikan suatu masalah dengan memberikan petunjuk tindakan.</p>
+        <p><span class="bold">Pemrograman </span>adalah proses menulis, menguji dan memperbaiki, dan memelihara kode yang membangun suatu program komputer. Kode ini ditulis dalam berbagai bahasa pemrograman. Sederhananya, pemrograman adalah proses membuat program di komputer. Pembuatan program ini bisa berupa website, software, aplikasi android, dan sebagainya.</p>
+        <img src="img/awal.png" alt="Gambar Pembelajaran">
+    </section>
+    <footer>
+        <p>Buku Bacaan: <a href="https://buku.kemdikbud.go.id/katalog/informatika-untuk-smkmak-kelas-x-semester-2">Informatika Kelas X Semester 2</a></p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.forEach(nav => nav.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
