@@ -135,3 +135,20 @@ ul li a:hover {
 .button:hover {
     background-color: #45a049; 
 }
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FDA446;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
